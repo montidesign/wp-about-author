@@ -149,7 +149,7 @@ function wp_about_author_get_social_links($wp_about_author_settings){
 function wp_about_author_get_socials() {
         $socials = array();
     	$socials['twitter'] = array('title'=>'Twitter', 'link'=>'http://www.twitter.com/%%username%%', 'icon'=> WPAUTHORURL_URL .'images/twitter.png');
-        $socials['facebook'] = array('title'=>'Facebook', 'link'=>'http://www.facebook.com/%%username%%', 'icon'=> WPAUTHORURL_URL .'images/facebook.png');
+        $socials['facebook'] = array('title'=>'Facebook', 'link'=>'%%username%%', 'icon'=> WPAUTHORURL_URL .'images/facebook.png');
         $socials['linkedin'] = array('title'=>'LinkedIn', 'link'=>'http://www.linkedin.com/in/%%username%%', 'icon'=> WPAUTHORURL_URL .'images/linkedin.png');
         $socials['pinterest'] = array('title'=>'Pinterest', 'link'=>'http://www.pinterest.com/%%username%%', 'icon'=> WPAUTHORURL_URL .'images/pinterest.png');
         if(defined( 'WPSEO_VERSION')){
